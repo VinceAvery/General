@@ -3,3 +3,5 @@
 ################################################################################
 
 /JsonSerializer/JsonSerializerFSharp/obj/Debug
+/JsonSerializer/JsonSerializer/obj/Debug
+/JsonSerializer/.vs/JsonSerializer/v15/.suo
