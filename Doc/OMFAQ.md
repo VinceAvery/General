@@ -57,11 +57,15 @@ https://simhub.simcorp.com/SimCorp/om-tools/blob/master/MACHINESETUP.md
 
 ## Where is GitHub / SimHub / Git? 
 The SimCorp GitHub site can be found here https://simhub.simcorp.com.
+
 Commonly used repositories for Order Manager are:
 
 MOMGA Server - https://simhub.simcorp.com/SimCorp/om-server
+
 Classic Order Manager - https://simhub.simcorp.com/SimCorp/OrderManager
+
 Broker Axes - https://simhub.simcorp.com/SimCorp/om-broker-axes
+
 Order Manager Tools - https://simhub.simcorp.com/SimCorp/om-tools
 
 Details on Git usage and GitFlow implementation can be found here
@@ -75,7 +79,9 @@ http://teamcity/
 
 ## Where is the MOMGA repository?
 MOMGA Server - https://simhub.simcorp.com/SimCorp/om-server
+
 MOMGA Updater - https://simhub.simcorp.com/SimCorp/om-momga-updater
+
 MOMGA Events Explorer - https://simhub.simcorp.com/SimCorp/om-orderevents-explorer
 
 The MOMGA server code is built here: http://teamcity/project.html?projectId=SimHub_Momga&tab=projectOverview
@@ -88,10 +94,12 @@ Repository - https://simhub.simcorp.com/SimCorp/OrderManager
 
 ## Where is the Broker Axes GIT repository?
 The code can be found here - https://simhub.simcorp.com/SimCorp/om-broker-axes
+
 The code is built here - http://teamcity/project.html?projectId=SimHub_BrokerAxes&tab=projectOverview
 
 ## Where is the Order Manager Tools GIT repository?
 The code can be found here - https://simhub.simcorp.com/SimCorp/om-tools
+
 The code is built here - http://teamcity/viewType.html?buildTypeId=SimHub_Tools_OmToolsBuild
 
 ## Where is OMConsole?
@@ -99,7 +107,9 @@ The code can be found here - https://simhub.simcorp.com/SimCorp/om-tools/tree/ma
 
 ## Where is Merge Monkey?
 The code can be found here - https://simhub.simcorp.com/SimCorp/om-merge-monkey
+
 The code is built here - http://teamcity/viewType.html?buildTypeId=SimHub_Tools_MergeMonkeyBuild
+
 Monkey runs on this machine and the logs are here - file://dk01wv2000/c$/MergeMonkey/MergeMonkey.log
 
 ## Which CR does MergeMonkey use to patch to closed version?
@@ -119,6 +129,7 @@ It is here - http://proget.tools.scdom.net/packages
 
 ## Where is the Order Manager development documentation?
 Here: https://simhub.simcorp.com/SimCorp/OrderManager/tree/master/Docs
+
 Older documentation can be found on the Wiki under the category 'OM3' - https://wiki/index.php?title=Category:OM3
 
 ## How do I setup my global configuration?
@@ -142,6 +153,7 @@ https://simhub.simcorp.com/SimCorp/OrderManager/pull/3550
 
 ## How do I upgrade Oracle Version for Order Manager?
 See this page - it should help https://simhub.simcorp.com/SimCorp/OrderManager/blob/1ec5953b56ab45f09f15bcd493258413b5e54928/Docs/Upgrade%20Oracle.md
+
 See Git commit 18f7f8be for guidance.
 
 ## How do I upgrade FPML version in Order Manager?
