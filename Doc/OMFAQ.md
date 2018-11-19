@@ -145,212 +145,153 @@ See this page - it should help https://simhub.simcorp.com/SimCorp/OrderManager/b
 See Git commit 18f7f8be for guidance.
 
 ## How do I upgrade FPML version in Order Manager?
+See this page - it should help https://simhub.simcorp.com/SimCorp/OrderManager/blob/1ec5953b56ab45f09f15bcd493258413b5e54928/Docs/Upgrade/Upgrade%20FPML%20Version.md
 
-## 
+## How do I upgrade .NET Version for Order Manager?
+Update .NET version - change the props - https://simhub.simcorp.com/SimCorp/OrderManager/blob/master/Directory.Build.props
 
-## 
+See GIT commit e6a288c3
 
-## 
+## How do I upgrade DevExpress for Order Manager?
+See Git commit 2e15c78f
 
-## 
+## How do I make a change to Entity Framework?
+See Wiki page https://wiki/index.php?title=Entity_Framework_for_Oracle
 
-## 
+This pull request should give some help https://simhub.simcorp.com/SimCorp/OrderManager/pull/2691
 
-## 
+## Where is the latest Sellside Simulator?
+The code can be found here - https://simhub.simcorp.com/SimCorp/om-sellsidesimulator
 
-## 
+The code is built here - http://teamcity/viewType.html?buildTypeId=SimHub_Tools_SellsideSimulator
 
-## 
+The slack channel is here - https://simcorp.slack.com/messages/C704KT3HU
 
-## 
+Neil Sumpter (@NSP) occasionally builds the SSS installer and copies it here - F:\SSS
 
-## 
+It can be started using the command SSS in OMConsole, which does not require the SSS installer.
 
-## 
+## Where is the latest FIX.NET Server (FNS)?
+The code can be found here - http://tfsprod:8080/tfs/IMS%20Collection/Development/_versionControl#path=%24%2FDevelopment%2FTracks%2FIMPL%2FFIX.NET+Server&_a=contents
 
-## 
+The code is built here using CruiseControl not Team City - http://dk01sv0424/ViewFarmReport.aspx
 
-## 
+The slack channel is here - https://simcorp.slack.com/messages/C6ZNS94HJ
 
-## 
+Neil Sumpter (@NSP) occasionally builds the FNS installer and copies it here - F:\FIX\CandidateReleases
 
-## 
+More details on the FNS build server - https://wiki/index.php?title=FIX.NET_Server_5.x_Build_Environment
 
-## 
+More details on FNS: https://wiki/index.php?title=FIX.NET_Server_Home
 
-## 
+This tool FIXer is excellent for setting up FIX sessions in development - https://simhub.simcorp.com/SimCorp/om-tools/tree/master/Tools/FIXer
 
-## 
+## How do I upgrade FIX.NET Server?
+Copy the latest version from F:\FIX\CandidateReleases. Run the command upgrade_fns in Powershell. That's all.
 
-## 
+## How do I upgrade the Sellside Simulator?
+If running from OMConsole, you will always have latest from source..
 
-## 
+If using the installer, run the latest from F:SSS and it should remove the old version and add the new version.
 
-## 
+## How do I install Elvin?
+See the Elvin section here - https://simhub.simcorp.com/SimCorp/om-tools/blob/master/MACHINESETUP.md
 
-## 
+Or there are more scripts here - https://simhub.simcorp.com/SimCorp/om-tools/tree/master/Standalone/Elvin
 
-## 
+## How do I setup the dark pool simulator?
+The code and docs can be found here - https://simhub.simcorp.com/SimCorp/om-tools/tree/master/Tools/DarkpoolSimulator
 
-## 
+## How do I check if code has been deployed to an environment? (Environment checker)
+See this page: http://dk01wv2000.scdom.net:8080
 
-## 
+The code can be found here - https://simhub.simcorp.com/SimCorp/om-environment-status
 
-## 
+## How do I create a new Order Manager Oracle database?
+See this page - it should help https://simhub.simcorp.com/SimCorp/om-tools/tree/master/Standalone/Database
 
-## 
+## How do I patch an Order Manager Oracle database?
+See this page - it should help https://simhub.simcorp.com/SimCorp/om-tools/tree/master/Standalone/Database
 
-## 
+## How do I add/delete/update an assembly in Order Manager classic?
+See these pages - https://simhub.simcorp.com/SimCorp/OrderManager/tree/master/Docs/VCSRegistration
 
-## 
+## How do I setup connectivity to trading platforms in my development environment?
+This doc should help:
 
-## 
+https://simhub.simcorp.com/SimCorp/OrderManager/blob/45600639dad4683dc3a80b2888524003f132a847/Docs/Setup%20Trading%20Platforms%20for%20Development.md
+ 
+## How do I generate a list of internal SCD database connection strings?
+This tool should do the job - https://simhub.simcorp.com/SimCorp/om-tools/tree/master/Tools/SQLDeveloperConfigGenerator
 
-## 
+## How can I monitor Elvin traffic using the Elvin eScanner tool?
+The code can be found here
+https://simhub.simcorp.com/SimCorp/om-tools/tree/master/Tools/ElvinSandbox/SimCorp.IMS.OM.Tools.ElvinScanner
 
-## 
+## Where are the integrated test environments?
+All the shortcuts to the test environments are on the T drive.
 
-## 
+OM is setup in dev in FO-ART-P - \\dk01sn008\SC Dimension Shortcuts\SCD Dev\FOART-P
 
-## 
+In closed version, the OM environment is usually named TEST_OM3 e.g. \\dk01sn008\SC Dimension Shortcuts\SCD 6.41\TEST_OM3
 
-## 
+## What is the FIX Platform Tester?
+The FIX platform tester uses FIX test sessions to connect to FIX trading platforms. This happens on a daily basis (Mon to Fri) and ensures that the test sessions remain active.
 
-## 
+The code can be found here: https://simhub.simcorp.com/SimCorp/om-tools/blob/master/Scripts/Test-ExternalFixSessionsForPlatforms.ps1
 
-## 
+The script it setup to run on machine dk01wv2198.
 
-## 
+## Where can I find sample ATDL strategy files?
+Here. They probably should be moved to SimHub.
 
-## 
+http://tfsprod:8080/tfs/IMS%20Collection/Development/_versionControl#path=%24%2FDevelopment%2FProjects%2FFIXatdl+Strategy+Files%2FFIXatdl+v1.1%2FCurrent+Files%2FBroker&_a=contents
 
-## 
+## How do XSL config overrides work?
+The repository for client configuration overrides can be found here:
 
-## 
+https://simhub.simcorp.com/SimCorp/om-client-xslt-overrides
 
-## 
+A tool for generating a zip of overrides per client can be found here.
+https://simhub.simcorp.com/SimCorp/om-tools/tree/master/Tools/XSLTDeploy
 
-## 
+To enable overrides in debug or an integrated environment, a folder named 'Order Manager' should be manully created one level above the Bin folder. This folder should contain a file called ConfigurationGUID.config containing the GUID for this release, along with a folder structure mirroring the XSL paths. The first folder should be SimCorp. e.g. OrderManager\SimCorp\IMS\OM\Services\Orders\Configuration\Gateway\Inbound
 
-## 
+## Do the IMS code generators run in the Order Manager build process?
+Yes they do. Look in the definition project for a service e.g. https://simhub.simcorp.com/SimCorp/OrderManager/blob/aecee5fb770602ba3e960bf4c02005c185d0d9ab/OM/Services/Orders/Service/Definition/IMS.OM.Services.Orders.Service.Definition.csproj
+ 
+<Target Name="GenerateServiceCode" AfterTargets="ResolveAssemblyReferences">
+ <SimCorp.IMS.CodeGenerators.Framework.Service.Design.ServiceCodeGenerator InputFilename="$([System.IO.Path]::Combine($(ProjectDir), 'OrderService.ServiceModel'))" GenerateType="All" References="@(Reference);@(_ResolvedProjectReferencePaths)" OutputPath="$(OutputPath)" />
+  </Target>
 
-## 
+## When do the OM repositories update?
+This document details the update frequency for all OM repositories https://simhub.simcorp.com/SimCorp/OrderManager/blob/master/Docs/Standalone%20vs.%20Integrated%20Modes.md
 
-## 
+## What should I know about database conversion programs (CBUs)?
+See this page - https://wiki/index.php?title=Index_for_Conversion_and_CBU_documentation
 
-## 
+## Where is OpenGrok?
+OpenGrok allows for fast code indexing and searching.
+The FOART-P branch is in the OpenGrok code indexing.
 
-## 
+You can access it by following URLs (do Shift+Refresh on the pages in browser in order to refresh the browser’s cache): 
 
-## 
+http://dk01su0031/
 
-## 
+http://dk01su0031/foart-p
 
-## 
+http://dk01su0031:8083/source/
 
-## 
+## What APIs does Siebel have?
+Here is a list of Siebel APIs http://siebintsvc/imsintsql/imsintsql.asmx
 
-## 
+## How do I host or join a Jabber call?
+Look here https://wiki/index.php?title=Joining_or_hosting_a_Jabber_call
 
-## 
+## Where is the PIPE calendar?
+It can be found here. See PIPE Planning Calendar on the left. https://simcorp.sharepoint.com/sites/226/cfs/saferm/SitePages/Home.aspx
 
-## 
+## Can I have a Pluralsight subscription for eLearning?
+Yes. The best way is to start exploring the Pluralsight website (http://www.pluralsight.com/). From here you can browse the content and get an idea of the different courses that are available. If you think Pluralsight is a resource that can help you, then you should have a talk with your Development Manager and make it part of your professional development.
 
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
+From the front page of the PD Learning & Development portal, you will find a link to both the Pluralsight site as well as the request form in SimPeople. (https://simcorp.sharepoint.com/sites/226/PD%20LD/Home.aspx)
